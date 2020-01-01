@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      label: develop
+      uri: http://localhost:8888
+  profiles:
+    active: default
